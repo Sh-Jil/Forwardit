@@ -1,0 +1,63 @@
+{
+  "name": "Auto-Forward-Bot",
+  "description": "Telegram's Best Smart Plugin File Forward Bot",
+  "logo": "https://telegra.ph/file/f0fc1ca20e08d638195b9.jpg",
+  "keywords": [
+    "telegram",
+    "best",
+    "file",
+    "forward",
+    "bot"
+  ],
+  "success_url": "https://t.me/shijilraj",
+  "website": "https://github.com/Sh-Jil/Forwardit",
+  "repository": "https://github.com/Sh-Jil/Forwardit",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token from @BotFather",
+      "value": ""
+    },
+    "TO_CHANNEL": {
+      "description": "Enter Your channel Id must add Eg:- -100xxxxxxxxx",
+      "value": ""
+    },
+    "FROM_CHANNEL": {
+      "description": "enter Channel username Eg:- @abcdefghijk",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Enter Your Telegram id",
+      "value": ""
+    },
+    "SKIP_NO": {
+      "description": "Enter File Skiping Number",
+      "value": "0"
+    },
+    "CAPTION": {
+      "description": "If you want to add a caption to the forwarded file, enter it here",
+      "required": false
+    },
+    "FILTER_TYPE": {
+      "description": "Type Of filters {document , audio , photo , video , animation , (empty = forward all kind of messages)}",
+      "value": "document"
+    },
+    "SESSION": {
+      "description": "Pyrogram string Seccion https://replit.com/@ShJil/PyroSessionString",
+      "value": ""
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
